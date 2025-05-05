@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- bootstrap cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  <!-- fontawesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="./giftcard.css">
+</head>
+<body>
+  
+  <nav> 
+    <a href="./homepage.html"><img class="img" src="https://stage.woohoo.in/media/Logo/websites/649/ZB_Logo_Black.jpg" alt=""> </a>
+    <ul class="ul">
+      <li class="li"><a class="a" href="#">E-gift card</a></li>
+      <li class="li"><a class="a" href="#">Reload</a></li>
+      <li class="li"><a class="a" href="#">Check balance</a></li>
+      <li class="li"><a class="a" href="#">Gift Card</a></li>
+      <li class="li"><a class="a" href="#">Find a store</a></li>
+      <li class="li"><a class="a" href="#">Order status and Resend</a></li>
+    </ul>
+  </nav>
+
+  <div class="main">
+    <div class="innermain">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="img1">
+            <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_3793.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" id="img1">
+            <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_3795.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" id="img1">
+            <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_3792.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="address">
+
+    <p>Runnin' out of gift ideas? We've got something that's really IN: Zudio E-Gift Cards! Give your loved ones the gift of fashion and fits that are IN. Deliver WHAT’S IN straight to their in-box! WHAT’S IN IS IN GIFTIN! WHAT’S IN IS IN ZUDIO!</p><br>
+
+    <hr style="width: 300px; height: 2px;display: inline-block;">
+    <p style="display: inline-block;font-size: 19px;vertical-align: top;font-weight: 400;">Enter Denomination</p>
+    <hr style="width: 310px; height: 2px;display: inline-block;">
+    <input class="bill" type="text" placeholder="Enter Amount*" style="margin-left: 10px;">
+    <input class="bill"  type="text" placeholder="Enter Quantity*"><br><br>
+
+    <div class="left">
+      <p style="font-size: 15px; font-weight: 400;"> Delivery Option</p>
+
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender"> Send as Gift
+    </div>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender"> Buy for Shelf
+    </div><br><br>
+    <p style="font-size: 15px; font-weight: 400;">Pick a Delivery Date</p> 
+    <i class="fa-solid fa-calendar-days"></i>
+    <p style="display: inline; font-size: 12px;">Delivery Date</p>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender"> Today
+    </div>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender"> Send later
+    </div>
+  </div>
+  <div class="right">
+    <br><br><br><p style="font-weight: 400;font-size: 15px;">Mode of Delivery</p>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender">Email
+    </div>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender"> SMS
+    </div>
+    <div class="sender">
+      <input class="radio"  type="radio" name="sender">Both
+    </div>
+  </div><br>
+  <hr style="width: 280px; height: 2px;display: inline-block;">
+    <p style="display: inline-block;font-size: 19px;vertical-align: top;font-weight: 400;">Select EGV Design Theme</p>
+    <hr style="width: 280px; height: 2px;display: inline-block;">
+
+    <div class="img1">
+      <img style="height: 75px;width: 87px;" src="https://stage.woohoo.in/media/catalog/customoptions/zud01_thumnail.jpeg
+      " alt="">
+
+    </div><br><br>
+    <div class="main2">
+    <div class="rightdetail">
+      <p style="font-size: 17px;"> Sender's Details</p>
+      <input style="width: 190px;" type="text" placeholder="First Name*">
+      <input style="width: 190px;" type="text" placeholder="First Name*"><br><br>
+      <input style="width: 383px;" type="text" placeholder="Enter Email address*"><br><br>
+      <div class="phone">
+        <button class="flag">
+          <img style="height: 25px; width: 35px; display: inline;margin-left: 3px;" src="https://seeklogo.com/images/I/india-flag-logo-3522C6780F-seeklogo.com.png" alt="" >
+        </button>
+        <div class="mobile">
+          <input style="width: 320px; border: none;" type="text" placeholder="Enter a Mobile number">
+        </div>
+
+      </div>
+
+    </div>
+    <div class="leftdetail"> <p style="font-size: 17px;"> Receiver's Details</p>
+      <input style="width: 190px;" type="text" placeholder="First Name*">
+        <input style="width: 190px;" type="text" placeholder="First Name*"><br><br>
+        <input style="width: 383px; height: 35px;" type="text" placeholder="Enter Email address*"><br><br>
+        <textarea name="" id="" placeholder="Write a message" style="height: 40px; width: 300px;"></textarea>
+      
+    </div>
+    <button id="preview2">PREVIEW E-GIFT CARD</button><br><br>
+
+    <hr style="width: 280px; height: 2px;display: inline-block;">
+    <p style="display: inline-block;font-size: 22px;vertical-align: top;font-weight: 400;">Select Payment Method</p>
+    <hr style="width: 275px; height: 2px;display: inline-block;">
+
+    <p style="font-size: 22px;font-weight: 400; margin-left: 550px;display: block;">Payable Amount:Rs 0.00</p>
+    <input style="margin-left: 270px;" type="checkbox" name="" id=""><p style="font-size: 19px;display: inline;">I agree to <span style="color: red;">Terms and conditions</span></p><br><br>
+    <button style="width: 120px;" id="preview3">PAY NOW</button><br><br>
+    <P style="font-size: 16px;margin-left: 75px;">This site is protected by reCAPTCHA and the Google <a style="color: red;" href="">Privacy Policy</a>  and <a style="color: red;" href="">Terms of Service apply</a>.</P><br>
+
+
+    
+    <hr style="width: 295px; height: 2px;display: inline-block;">
+    <p style="display: inline-block;font-size: 22px;vertical-align: top;font-weight: 400;">Terms &  Conditions</p>
+    <hr style="width: 295px; height: 2px;display: inline-block;"><br><br>
+
+    <ul style="font-size: 16px;">
+      <li>E-Gift Voucher is valid for a period for 12 months from the date of purchase/activation</li>
+      <li>Protect the E-Gift Voucher number and PIN </li>
+      <li>E-Gift Voucher is combination of 16-digit Card number and 6-digit PIN </li>
+      <li>E-Gift Voucher is received by customers through e-mail or SMS</li>
+      <li>E-Gift Voucher is ONE-TIME Redeem only i.e the customer has to completely utilize the EGV amount . Partial redemption is not possible (Meaning to utilize the whole money at one go hence it can be utilized only once and not multiple times)</li>
+      <li>ZUDIO EGVS can only be redeemed at Zudio Standalone Store (i.e Zudio EGV will not be Valid in Zudio Shop in Shop(SIS ))</li>
+      <li>E-Gift Voucher are non-reloadable and once lost cannot be replaced nor the money will be returned</li>
+      <li>E-Gift Voucher is the property of TRENT LIMITED.</li>
+      <li>To check balance customer can visit the store and ask the store staff for the same or visit our website www.zudio.wohoo.in</li>
+      <li>Once the E-Gift Voucher is issued, Trent will not entertain any request for cancellation.</li>
+      <li>If E-Gift Voucher is lost or stolen neither will a new e-Gift Voucher be issued, nor will the Money be reimbursed in any manner.</li>
+      <li>Multiple e-Gift Voucher can be clubbed in single transaction</li>
+      <li>E-Gift Voucher can be used during sale period & E-Gift Voucher can be used with existing offers in store</li>
+      <li>E-Gift Voucher cannot be extended & cannot issue new E-Gift Voucher post expiry</li>
+      <li>For any queries, You can contact us at support@woohoo.in or call us at 08067181401 Monday - Friday, 10am - 6pm IST.
+      </li>
+    </ul>
+  </div>
+</div>
+  
+</body>
+<footer style="background-color: rgba(196, 195, 193, 0.353);height: 60px;">
+  <p style="text-align: center; padding-top: 20px;">© Copyright 2025 Pine Labs Private Limited. All rights reserved</p>
+</footer>
+</html>
